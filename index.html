@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <meta chartype="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Playlist Generator</title>
     <link rel="stylesheet" href="./styles.css">
@@ -19,7 +19,7 @@
 
     <div class="input-row">
         <label class="input-label">Genre</label>
-        <select class="input-dropdown">
+        <select class="input-dropdown" id="genreDropdown">
             <option value="none">None</option>
             <option value="alt-rock">Alt Rock</option>
             <option value="cantopop">Cantopop</option>
@@ -46,7 +46,7 @@
 
     <div class="input-row">
         <label class="input-label"># of songs</label>
-        <select class="input-dropdown">
+        <select class="input-dropdown" id="songNumberDropdown">
             <option value=1>1</option>
             <option value=2>2</option>
             <option value=3>3</option>
@@ -61,7 +61,7 @@
     </div>
 
 
-    <button id="generate-playlist-button">
+    <button id="generatePlaylistButton">
         Generate!
     </button>
 

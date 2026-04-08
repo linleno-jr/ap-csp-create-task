@@ -35,15 +35,16 @@ h1 {
     margin-bottom: 40px;
 }
 
-#previous-song-button, #next-song-button {
+#previousSongButton, #nextSongButton {
     display: inline;
     margin: 0px;
     margin-bottom: -20px;
 }
 
-#song-output {
+#songOutput {
     width: 500px;
     height: 200px;
+    white-space: pre-line;
 }
 
 #app-description {
@@ -51,7 +52,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-#generate-playlist-button {
+#generatePlaylistButton {
     width: 100px;
 }
 
