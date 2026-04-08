@@ -73,7 +73,7 @@ h1 {
 .button-container {
   display: flex;
   justify-content: center; /* centers horizontally */
-  gap: 300px; /* space between buttons */
+  gap: 150px; /* space between buttons */
 }
 
 .input-label {
