@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta chartype="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Generator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Music Playlist Generator</h1>
+
+    <p id="app-description">
+        This is an app that can generate a playlist for you based off of a genre of your choosing!
+        It was developed for the AP CSP create task.
+    </p>
+
+    <div class="input-row">
+        <label class="input-label">Genre</label>
+        <select class="input-dropdown">
+            <option value="none">None</option>
+            <option value="alt-rock">Alt Rock</option>
+            <option value="cantopop">Cantopop</option>
+            <option value="chicago-house">Chicago House</option>
+            <option value="detroit-techno">Detroit Techno</option>
+            <option value="drum-and-bass">Drum and Bass</option>
+            <option value="french">French</option>
+            <option value="iranian">Iranian</option>
+            <option value="mandopop">Mandopop</option>
+            <option value="metal-misc">Metal (Misc)</option>
+            <option value="minimal-techno">Minimal Techno</option>
+            <option value="pagode">Pagode</option>
+            <option value="philippines-opm">Philippines OPM</option>
+            <option value="post-dubstep">Post Dubstep</option>
+            <option value="progressive-house">Progressive House</option>
+            <option value="show-tunes">Show Tunes</option>
+            <option value="singer-songwriter">Singer-Songwriter</option>
+            <option value="soundtracks">Soundtracks</option>
+            <option value="synth-pop">Synth Pop</option>
+            <option value="trip-hop">Trip Hop</option>
+            <option value="world-music">World Music</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <label class="input-label"># of songs</label>
+        <select class="input-dropdown">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+            <option value=10>10</option>
+        </select>
+    </div>
+
+
+    <button id="generate-playlist-button">
+        Generate!
+    </button>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(187, 145, 231);
+}
+
+h1, p, button {
+    display: block;
+    color: rgb(94, 77, 131);
+    background-color: rgb(204, 185, 225);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid rgb(136, 117, 177);
+}
+
+h1, p, button, select, label {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button, select{
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+button:hover, select:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    width: 500px;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#previous-song-button, #next-song-button {
+    display: inline;
+    margin: 0px;
+    margin-bottom: -20px;
+}
+
+#song-output {
+    width: 500px;
+    height: 200px;
+}
+
+#app-description {
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+#generate-playlist-button {
+    width: 100px;
+}
+
+* {
+    border-radius: 10px;
+    font-family: "garamond", serif;
+    font-size: 16px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  gap: 300px; /* space between buttons */
+}
+
+.input-label {
+    background-color: rgb(204, 185, 225);
+    color: rgb(94, 77, 131);
+    padding: 10px 15px;
+    border: 2px solid rgb(136, 117, 177);
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.input-dropdown {
+    background-color: rgb(136, 117, 177);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+}
